@@ -1,0 +1,23 @@
+h1{
+    background-color: rgb(77, 199, 72);
+    color:rgb(55, 62, 60);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: cursive;
+    font-size: 50px;
+}
+p{
+font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.arredondadas{
+border-radius: 10px;
+}
+img{
+    width: 200px;
+}
+li{
+    background-color: rgb(8, 30, 52);
+    list-style: square;
+}
