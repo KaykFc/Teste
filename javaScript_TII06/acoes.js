@@ -1,0 +1,1 @@
+document.getElementById('texto') = "Azul significa Harmonia e Maturidade"
