@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="titulo">Trabalhando com CSS em Javascript</h1>
+    <button onclick="document.getElementById('titulo').style.color = 'red'">Alterar a cor do Título</button>
+    <p id="parágrafo1">Texto com algum tipo de destaque.</p>
+    <button onclick="document.getElementById('parágrafo1').style.color = 'blue'">Alterar a cor do parágrafo.</button>
+    <P id="parágrafo2">Texto com muito destaque.</P>
+    <button onclick="document.getElementById('parágrafo2').style.fontSize = '50px'">Alterar o tamanho da fonte</button>
+    <button onclick="document.getElementById('parágrafo2').style.fontFamily = 'cursive'">Alterar a fonte</button>
+    <hr>
+<P id="texto">Texto desenvolvido por um clique</P>
+<button onclick="document.getElementById('texto').innerHTML = 'Texto Transformado'"> Clique aqui</button>
+<br>
+<br>
+<button onclick="document.getElementById('acesa').src = 'Imagens/luz.jpg' ">Ligar</button>
+<button id="ocultar" onclick="document.getElementById('acesa').style.display = 'none'; document.getElementById('ocultar').style.display = 'none'">Ocultar</button>
+<button onclick="document.getElementById('acesa').style.display = ''; document.getElementById('ocultar').style.display = ''">Mostrar </button>
+<button onclick="document.getElementById('acesa').src = 'Imagens/apagada.jpg'">Apagar</button>
+
+
+<p><img id="acesa" src="Imagens/luz.jpg"></p>
+</body>
+<script src="acoes.js">
+
+</script>
+</body>
+</html>

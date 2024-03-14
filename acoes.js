@@ -1,0 +1,2 @@
+
+alert(document.getElementById('caixa').innerHTML = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatum. Quam voluptatibus optio laborum totam dignissimos architecto cumque saepe dolorum voluptatum, suscipit doloremque. Doloribus praesentium facilis animi quae asperiores illum!LoremçLorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam minima labore provident amet quidem recusandae quas magni cupiditate, reprehenderit consequatur earum dolorum laboriosam quaerat. Ipsam optio incidunt alias officia eos!')
