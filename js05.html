@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos com funções</title>
+    <style>
+        div#area {
+            font: normal;
+            background-color: blueviolet;
+            color: white;
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            line-height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="area" onmouseout="sair()" onmouseenter="entrar()">Interaja ..</div>
+
+    <script>
+        let a = window.document.getElementById('area')
+
+        function entrar() {
+            a.innerText = "entrou!"
+            a.style.background = 'blue'
+        }
+
+        function sair() {
+
+            a.innerText = "saiu!"
+            a.style.background = 'green'
+            a.style.transition = '2s'
+            a.style.fontSize = '32px'
+            a.style.transitionDelay = '1s'
+        }
+
+        a.addEventListener('click', clicar)
+
+        function clicar() {
+            a.innerText = "clicou!"
+            a.style.background = 'yellow'
+            a.style.color = 'black'
+
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>

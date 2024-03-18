@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let numero = parseFloat(prompt("Digite um número:")); let vizinhoAnterior = numero - 1; let vizinhoPosterior = numero + 1; alert("Vizinhos: " + vizinhoAnterior + " e " + vizinhoPosterior);
+
+        let valorConta = parseFloat(prompt("Digite o valor total da conta R$:")); let numberClientes = parseInt(prompt("Digite o número de clientes:")); let valorPorCliente = valorConta / numberClientes; alert("Valor por cliente R$: " + valorPorCliente.toFixed(2));
+
+        let preço = parseFloat(prompt("Digite o preço do produto R$:")); let desconto = preço * 0.1; let preçoAVista = preço - desconto; let preçoParcelado = preço / 3; alert("À Vista R$: " + preçoAVista.toFixed(2) + "\nOu 3x de R$: " + preçoParcelado.toFixed(2));
+
+        let nota1 = parseFloat(prompt("Digite a 1ª nota:")); let nota2 = parseFloat(prompt("Digite a 2ª nota:")); let media = (nota1 + nota2) / 2; alert("Média: " + media.toFixed(1));
+
+    </script>
+
+</body>
+
+</html>
