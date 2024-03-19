@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css geral/estiloajs03.css">
+</head>
+
+<body>
+    <h1>Cadastrar Colaborador</h1>
+
+    <div id="tabela1">
+        <label for="nome">Nome:</label>
+        <br>
+        <input id="input" type="text" id="nome" required>
+        <br>
+        <label for="cargo">Cargo:</label>
+        <br>
+        <input id="input" type="text" id="cargo" required>
+        <br>
+        <label for="idade">Idade:</label>
+        <br>
+        <input id="input" type="number" id="idade" required>
+        <br>
+        <label for="salario">Salario:</label>
+        <br>
+        <input id="input" type="number" id="salario" required>
+        <br>
+        <input id="btn" type="button" value="Salvar" required>
+    </div>
+
+    <h1>Ficha do Colaborador</h1>
+
+    <div id="tabela2">
+        <p>Nome Completo</p>
+        <p>Idade</p>
+        <p>Salario</p>
+        <p>Cargo</p>
+    </div>
+    <div id="tabela3">
+        <label for="nome">Nome:</label>
+        <br>
+        <input id="input" type="text" id="nome" required>
+        <br>
+
+        <script>
+            let btn =  window.document.getElemntById('btn')
+btn.addEventListener('click', salvar)
+
+            let nome = window.document.getElementById('nome')
+            let cargo = window.document.getElementById('cargo')
+            let idade = window.document.getElementById('idade')
+            let salario = window.document.getElementById('salario')
+        </script>
+
+</body>
+
+</html>

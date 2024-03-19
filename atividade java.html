@@ -34,14 +34,13 @@ div#lampada{
     </button>
     <button onclick="document.getElementById('acesa').src = 'Imagens/apagada.jpg'">Apagar</button>
 
-    <p><img id="acesa" src="Imagens/luz.jpg"></p>
-    <p><img id="apagada" src="Imagens/apagada.jpg"></p>
+    <img id="apagada" src="Imagens/apagada.jpg">
 
-<div id="lampada" onmouseout="sair()" onmouseenter="entrar()"></div>
+<div id="lampada" onmouseout="sair()" onmouseenter="acender()"></div>
 <script>
 let a = window.document.getElementById('lampada')
 
-function entrar(){
+function acender(){
 
 let image = image('imagens/luz.jpg');
 
